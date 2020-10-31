@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>FORM REGISTRASI</title>
+   <style>
+       h1{
+        font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+        
+       }
+       h2{
+        font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+       
+       }
+   </style>
+  
+</head>
+
+<body>
+    
+      
+                   
+                    <form >
+                        <fieldset style="position: absolute;">
+                        <legend><h2 >Form Registrasi Siswa</h2></legend>
+                        <div>
+                            <table cellpadding="7" cellspacing="3">
+                            <tr>
+                            <td><label for="fname">First name:</label><br></td>
+                            <td><label for="lname">Last name:</label><br></td>
+                            </tr>
+                            <tr>
+                            <td><input type="text" id="fname" name="fname" placeholder="Masukan Nama Lengkap"></td>
+                           
+                            <td><input type="text" id="lname" name="lname" placeholder="Masukan nama Pangilan"></td>
+                            </tr>
+                            </table>
+                        </div><br><br>
+
+                        <div>
+                            <tr>
+                                <td>Tanggal Lahir</td>
+                                <td>:</td><br>
+                                <td><input type="date" name="date" style="width: 300px;"></td>
+                            </tr>     
+                        </div>
+                        
+                        <div>
+                            <h4>Jenis Kelamin</h4>
+                            <input type="radio" id="Laki-Laki" name="gender" value="Laki-Laki">
+                            <label for="male">Laki-Laki</label><br>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Perempuan</label><br>
+                        </div>    
+
+                        <div>
+                            <h3>Hobi</h3>
+                            <div>
+                                <input type="checkbox" name="hobi" style="margin-left: 50px;"/>Berenang
+                                <input type="checkbox" name="hobi" style="margin-left: 50px;"/>bulu Tangkis
+                                <input type="checkbox" name="hobi" style="margin-left: 50px;"/>Ngaji
+                                <input type="checkbox" name="hobi" style="margin-left: 50px;"/>Futsal
+                            </div>
+                        </div>
+                        <table align="center"  cellspacing="1" cellpadding="20">
+                            <h3>Informasi Kontak</h3>
+                            <tr>
+                                <td>Alamat Lengkap</td>
+                                <td>:</td>
+                                <td><textarea name="address" style="width: 300px;" placeholder="Masukan Alamat Lengkap Anda"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Kota</td>
+                                <td>:</td>
+                                <td><input type="text" name="city" style="width: 300px;" placeholder="Jakarta"></td>
+                            </tr> 
+                              <tr>
+                                <td>Provinsi</td>
+                                <td>:</td>
+                                <td><input type="text" name="prov" style="width: 300px;" placeholder="Provinsi Mu"></td>
+                            </tr> 
+                            <tr>
+                                <td>Nomor Telepon</td>
+                                <td>:</td>
+                                <td><input type="number" min="0" name="phone" style="width: 300px;" placeholder="xxxxxxxx67"></td>
+                            </tr>  
+                              <tr>
+                                <td>Email</td>
+                                <td>:</td>
+                                <td><input type="email" min="0" name="city" style="width: 300px;" placeholder="antoxxxxx@gmail.com"></td>
+                            </tr>
+                            <tr>
+                                <td>Lulusan</td>
+                                <td>:</td>
+                                <td>
+                                    <select style="width: 300px;">
+                                        <option value="SMK">SMK</option>
+                                        <option value="SMA">SMA</option>
+                                        <option value="MA">MA</option>
+                                        <option value="Pondok">Pondok Pesantren</option>
+                                    </select>
+                                </td>
+                            </tr>           
+                           
+                        </table>
+                        <div>
+                            <button type="submit" name="submit" value="Submit" style="margin-left: 20px;">Submit</button>
+                            <button type="reset" name="reset" value="reset" style="margin-left: 380px;">Reset</button>
+                        </div>
+
+                        </fieldset>
+                    </form>
+     
+               
+    
+
+   
+
+   
+
+</body>
+</html>
